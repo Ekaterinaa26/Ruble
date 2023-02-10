@@ -4,7 +4,7 @@ public class Main {
         int Replenishment = 1000;
 
         int bonus;
-        if (Replenishment <  1000) {
+        if (Replenishment < 1000) {
             bonus = Replenishment + 100;
 
         } else {
@@ -14,6 +14,6 @@ public class Main {
         Balance = Balance + Replenishment + bonus;
 
         System.out.println(" Количество бонусов: " + bonus);
-        System.out.println( " Итоговый баланс: " + Balance);
+        System.out.println(" Итоговый баланс: " + Balance);
     }
 }
