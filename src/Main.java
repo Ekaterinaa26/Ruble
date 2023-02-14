@@ -1,19 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        int Balance = 100;
-        int Replenishment = 1000;
+        int balance = 100;
+        int replenishment = 1000;
 
         int bonus;
-        if (Replenishment < 1000) {
-            bonus = Replenishment + 100;
+        if (replenishment < 1000) {
+            bonus = 0;
 
         } else {
 
-            bonus = Replenishment / 100;
+            bonus = replenishment / 100;
         }
-        Balance = Balance + Replenishment + bonus;
+        balance = balance + replenishment + bonus;
 
         System.out.println(" Количество бонусов: " + bonus);
-        System.out.println(" Итоговый баланс: " + Balance);
+        System.out.println(" Итоговый баланс: " + balance);
     }
 }
